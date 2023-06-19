@@ -1,0 +1,1589 @@
+
+
+$secondary-color: #181e4b;
+$text-color: #5e6282;
+$accent-color: #93176e;
+$shadow-color: rgba(241, 165, 1, 0.15);
+$hover-shadow-color: rgba(223, 105, 81, 0.3);
+
+.anaresim {
+    background-image: url('resim.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 400px;
+
+  }
+
+  .navbar-brand {
+    padding-left: 80px;
+  }
+  #sign{
+    border: 2px solid black;
+    width: 80px;
+    text-align: center;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 70px;
+    font-size: 16px;
+  }
+  
+  .navbar-nav .dropdown {
+    margin-left: 15px;
+  }
+  
+.b3{
+  margin-top: 400px;
+}
+.artı{
+  width: 5%;
+  position: absolute;
+  left: 1300px;
+}
+  #b1 {
+    
+    margin-top: 40px;
+    padding-top: 40px;
+    background-color: transparent;
+  }
+
+  #containerbaslık {
+    position: relative;
+    
+    width: 500px;
+    right: 300px;
+    top: -20px !important;
+    
+  }
+
+  .a1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #df6951;
+    font-weight: 700;
+    font-family: "Poppins";
+  }
+
+  .a2 {
+    font-size: 60px;
+    line-height: 1.5;
+    color: #181e4b;
+    font-weight: 700;
+    font-family: "Volkhov";
+  }
+
+  .a3 {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5e6282;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+
+  .a4 {
+
+    font-size: 18px;
+    height: 60px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 20px 40.5px rgba(241, 165, 1, 0.15));
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .a5 {
+    width: 117px;
+    height: 23px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Google Sans";
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .a6 {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px; 
+    filter: drop-shadow(0px 15px 34.5px rgba(223, 105, 81, 0.3));
+    background-color: #df6951;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 15px;
+    left: 180px;
+    top: 600px;
+  }
+
+  .a6::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+  }
+  
+  .a7 {
+    margin-left: 20px;
+font-size: 15px;
+color: #686d77;
+font-weight: 500;
+font-family: "Poppins";
+margin-top: 20px;
+position: absolute;
+left: 240px;
+top: 600px;
+}
+
+
+  /* bölüm2 */
+  #b2 {
+    margin-bottom: 40px;
+    text-align: center;
+    
+
+  }
+  .b3{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    }
+  #b3 {
+    position: absolute;
+
+    width: 100px;
+    left: 1200px;
+  }
+  .category{
+display: inline;
+font-size: 12px;
+color: #5e6282;
+font-weight: 600;
+font-family: "Poppins";
+text-align: center;
+  }
+  .we{
+
+    font-size: 30px;
+    color: #14183e;
+    font-weight: 700;
+    font-family: "Volkhov";
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+    color: #201b1b;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  /* bölüm3 */
+
+  #ucak{
+    position: relative;
+    top: 190px;
+    right: 130px;
+  }
+  .card {
+    overflow: visible;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 15px !important;
+    margin: 20px;
+    padding-bottom: 90px;
+    box-shadow: 0px 0px 0px white;
+    
+  }
+
+
+  .cardu {
+    overflow: visible;
+    position: relative;
+    bottom: 90px;
+    border-radius: 15px;
+    box-shadow: none;
+    background-color: white;
+    box-shadow: 0px 1px 1px black;
+    padding-bottom: 90px;
+  }
+  
+
+  .cardu-title {
+text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5e6282;
+    font-weight: 700;
+    font-family: "Poppins";
+  }
+
+  .cardu-text {
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #5e6282;
+    font-weight: 400;
+    font-family: "Poppins";
+  }
+  .card-title {
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #5e6282;
+    font-weight: 700;
+    font-family: "Poppins";
+  }
+
+  .card-text {
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #5e6282;
+    font-weight: 400;
+    font-family: "Poppins";
+  }
+  
+  /* bölüm4 */
+  #b4 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+  }
+
+  /* bölüm5 */
+  .card2 {
+    text-align: center;
+    justify-self: right;
+    margin-left: 10px;
+    border: #000000 1px solid;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.3s;
+  }
+
+
+  .card2-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .card2-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .card3 {
+    width: 320px;
+    height: 400px;
+    top: 50px;
+    z-index: 1;
+    position: relative;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 36px -20px 69px -22px blue;   }
+
+  .card3 .content {
+    padding: 10px;
+  }
+  
+  #easy{
+    width: 356px;
+    height: 17px;
+    font-size: 18px;
+    color: #5e6282;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: left;
+    margin-bottom: 20px;
+  }
+#book{
+width: 511px;
+height: 130px;
+font-size: 50px;
+margin-bottom: 40px;
+color: #14183e;
+font-weight: 700;
+font-family: "Volkhov";
+}
+  .inner-card3 {
+    position: relative;
+    background-color: white;
+    left: 200px;
+    bottom: 120px;
+    z-index: 2; 
+    border-radius: 20px;
+    width: 230px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  .card4 {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    padding: 20px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .col-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  
+  .col-4.offset-1 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .yuvarlak{
+    position: relative;
+    
+  }
+  #yuvarlak {
+    position: absolute;
+    
+  }
+  
+  .card3 .content .inner-card3 .row img {
+    width: 40px;
+    height: 40px;
+  }
+  .cardyay{
+    width: 290px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+  }
+  .yay{
+    position: relative;
+  }
+  #yay{
+position: absolute;
+left: 1250px;
+height: 100px;
+top: 170px;
+opacity: 0.5;
+  }
+
+  .card-img-top{
+    width: 300px; 
+    height: 300px; 
+    object-fit: contain;
+  }
+
+  .card-subtitle.font-weight-light{
+    height: 40px;
+    font-size: 16px;
+    color: #84829a;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .card-title.living-coral-text{
+    width: 134px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #080809;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .d-flex.align-items-center{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #f5f5f5;
+    padding-left: 12px;
+  }
+  .aaa{
+    width: 58px;
+height: 17px;
+font-size: 14px;
+line-height: 17px;
+color: #84829a;
+font-weight: 500;
+font-family: "Poppins";
+  }
+  .aaaa{
+    width: 107px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #080809;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .bb{
+    width: 128px;
+    height: 27px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5e6282;
+    font-weight: 600;
+    font-family: "Poppins";
+  }
+  .bbb{
+    width: 289px;
+    height: 130px;
+    font-size: 50px;
+    color: #14183e;
+    font-weight: 700;
+    font-family: "Volkhov";
+    margin-bottom: 20px;
+  }
+  .nokta{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #39425d;
+    margin-bottom: 60px;
+  }
+  .nokta2{
+    margin-left: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #e5e5e5;
+  }
+    
+  .card5 {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    top: 50px;
+    margin-left: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+  
+  .card5 .content {
+    position: relative;
+  }
+  
+  .card5 .content .card-body {
+    padding: 10px;
+  }
+  
+  .card5 .content .inner-card5 {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 280px;
+    height: 130px;
+    bottom: -65px;
+    right: -40px;
+    opacity: 0.5;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card5 .content .inner-card5 .col-2 {
+    width: 280px;
+    height: 130px;
+    margin-top: 100px;
+    background-color: white;
+
+  }
+  #d {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-3 {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+  
+  .col-2 {
+    flex: 0 0 100%;
+  }
+  
+
+.ok2{
+  transform: rotate(180deg);
+}
+
+  .users-feedback
+{
+    padding: 100px;
+}
+.user-review
+{
+    
+    text-align: left;
+    box-shadow: 1px 1px 10px black;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    border-radius: 15px;
+    background-color: white;
+    
+    
+}
+.user-review2
+{  
+    text-align: start;
+    box-shadow: 1px 2px 1px  rgba(0,0,100,0.2);
+    padding-left: 15px;
+    top: -200px;
+    left: 60px  ;
+    position: relative;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+    
+
+}
+#kafa{
+  position: absolute;
+  top: -40px;
+  left: -10px;
+}
+.user-review2 h5
+{
+    padding: 190px 10px 0px 0px;
+}
+.user-review p
+{
+    padding: 50px 10px 10px 10px;
+}
+.users-feedback img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    right: 35px;
+}
+
+.about-us-page-banks {
+  width: 100%;
+  min-height: 10vh;
+  background-color: white;
+  margin: 0 auto;
+  
+}
+.about-us-page-logos {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+
+.morici {
+  z-index: 1;
+  position: relative;
+  border-radius: 20px;
+  border-top-left-radius: 150px;
+  background-color: #dfd7f9;
+  overflow: hidden; 
+
+}
+.morresim{
+  opacity: 0.200;
+}
+.morresim2{
+  position: absolute;
+  left: 1100px;
+  top: 50px;
+}
+.morresim img{
+  position: relative;
+  margin-top: 100px;
+  top: 90px;
+  margin-left: 40px;
+  width: 35%;
+}
+.mor{
+  position: relative;
+}
+.moryıldız{
+  position: absolute;
+   left: 1240px;
+   top: 450px;
+}
+.morici form{
+  top: 350px;
+  left: 340px;
+  translate: middle center;
+  position: absolute;
+  
+  
+}
+.mail{
+  width: 421px;
+height: 68px;
+border-radius: 10px;
+background-color: #ffffff;
+}
+.buton{
+  width: 140px;
+height: 68px;
+border-radius: 10px;
+background-image: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+text-align: center;
+}
+.butonyazısı{
+font-size: 17px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+}
+.morici i {
+position: absolute;
+}
+
+.morici{
+margin-bottom: 10px;
+}
+
+.icon {
+padding-top: 30px;
+padding-left: 30px;
+}
+.input-field {
+padding: 10px;
+text-align: center;
+}
+
+
+
+.box {
+  margin-top: 40px;
+  text-align: center;
+  &.box1{
+    @extend .box;
+    margin-bottom: 900px !important;
+  }
+}
+.boxapp {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  margin-top: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+.icon-with-text {
+  display: flex;
+  align-items: center;
+  
+}
+.boxsosyalmedya{
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px black;
+}
+.icon-with-text i {
+  margin-right: 5px;
+}
+.icon-with-text span {
+  font-size: 9px;
+}
+.alt{
+  width: 93px;
+  height: 26px;
+  font-size: 21px;
+  line-height: 26px;
+  color: #080809;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+.jado{
+  width: 143px;
+  height: 54px;
+  font-size: 44px;
+  color: #181e4b;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.moryazı{
+  width: 559px;
+  position: absolute;
+  left: 320px;
+  top: 50px;
+  height: 108px;
+  font-size: 33px;
+  line-height: 54px;
+  color: #5e6282;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center ;
+}
+.mor{
+  position: relative;
+}
+#mor{
+  z-index: 2;
+  border-radius: 50%;
+  position: absolute;
+  left: 1260px;
+  bottom: 540px;
+}
+
+
+
+
+
+
+
+//media
+
+
+@media (max-width: 1368px){
+  .anaresim{
+    width: 100%;
+    padding: 0 ;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  #containerbaslık {
+
+    right: 170px;
+    bottom: 80px;
+    width: 240px;
+    
+  }
+  .navbar-brand {
+    margin-right: auto;
+    size: 10%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .anaresim{
+    
+  padding: 0;
+  margin: 0;
+  }
+  .a1 {
+    font-size: 14px;
+
+  }
+
+  .a2 {
+    font-size: 22px;
+  }
+
+  .a3 {
+    font-size: 10px;
+  }
+
+  .a4 {
+    font-size: 8px;
+    height: 50px;
+    width: 126px;
+  }
+
+  .a5 {
+    font-size: 10px;
+  }
+
+  .a6 {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    filter: drop-shadow(0px 10px 25.5px rgba(223, 105, 81, 0.3));
+    top: 370px;
+    left: 180px;
+    
+  }
+
+  .a6::after {
+    border-width: 0 8px 8px 8px;
+  }
+
+  .a7 {
+    top: 370px;
+    left: 210px;
+    font-size: 9px;
+  }
+  .category{
+    font-size: 14px !important;
+  }
+  .we{
+    font-size: 18px !important;
+  }
+  #b2 h2{
+    text-align: center !important;
+  }
+  #b2 h4{
+    text-align: center !important;
+  }
+}
+@media (max-width: 468px) {
+
+    .buton{
+      width: 33px;
+    height: 20px;
+  
+    }
+    .butonyazısı{
+      font-size: 5px;
+    }
+    .mail{
+      width: 101px;
+    height: 10px;
+    font-size: 8px;
+  
+    }
+
+    .icon {
+      padding-top: 8px;
+      padding-left: 10px;
+      
+      }
+      .input-field {
+        padding-left: 30px;
+        }
+  
+  
+  }
+  @media (max-width: 768px) {
+   
+
+    .buton{
+      width: 40px;
+    height: 20px;
+  
+    }
+    .butonyazısı{
+      font-size: 7px;
+    }
+    .mail{
+      width: 141px;
+    height: 20px;
+    font-size: 10px;
+  
+    }
+  .morici{
+    width: 450px !important;
+    height: 170px;
+    border-top-left-radius: 90px;
+  
+  }
+    .morici form{
+     padding: 0;
+     margin: 0;
+      position: absolute;
+      left: 120px;
+      top: 110px  ;
+    }
+    .moryıldız{
+      width: 80px;
+      height: 80px;
+      left: 420px !important;
+      top: 150px !important;
+    }
+    .icon {
+      padding-top: 6px;
+      padding-left: 10px;
+      
+      }
+      .input-field {
+        padding-left: 23px;
+        }
+  }
+  @media (max-width: 768px) {
+
+    .quantas{
+      width: 40;
+    }
+    .alitali{
+      width: 40;
+    
+    }
+      
+    }
+    @media (max-width: 768px) {
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 10px;        
+      }
+      .alt{
+        width: 93px;
+        height: 26px;
+        font-size: 21px;
+
+      }
+
+      .boxapp {
+        background-color: black;
+        color: white;
+        margin-top: 40px;
+        border-radius: 20px;
+        text-align: center;
+        width: 140px;
+      }
+
+      .boxsosyalmedya{
+        background-color: white;
+        padding: 0px;
+        margin-top: 40px;
+
+        text-align: center;
+        border-radius: 80%;
+      }
+      .icon-with-text i {
+        margin-right: 5px;
+      }
+      .icon-with-text span {
+        font-size: 9px;
+      }
+      
+    #book{
+      font-size: 100%;
+    }
+    .bbb{
+      font-size: 20px;
+    }
+    #ucak{
+      right: 80px;
+    }
+    .cardu{
+      left: 20px;
+    }
+    .user-review {
+      size: 12px;
+      width: 240px;
+      
+    }
+    .user-review2{
+      width: 250px;
+      left: 0;
+    }
+      #aa{
+        width: 20%;
+      }
+      .col-3.ofset-1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    
+      .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    
+      .col-5.offset-1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    
+      .card4-img {
+        width: 15%;
+        height: auto;
+      }
+  
+    
+      .card3 {
+        width: 200px;
+      }
+  
+      .inner-card3{
+        width: 40%;
+        font-size: 10px;
+        left: 170px;
+      }
+      .inner-card3 img{
+        width: 30px;
+        height: 30px;
+      }
+  
+      #yuvarlak {
+        width: 200px;
+        height: 200px;
+        left: 50px;
+        
+      }
+    
+      .cart5{
+        padding: 0;
+        margin: 0;
+      }
+      .card-text{
+        width: 80%;
+          }
+          .cardu-text{
+            width: 80%;
+              } 
+          .about-us-page-banks {
+            width: 100%;
+            min-height: 10vh;
+            margin: 0 auto;
+            
+          }
+          .about-us-page-logos {
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100px;
+          }
+    }
+    @media (max-width: 768px) {
+      #yay{
+       margin: 0;
+       padding-right: 0;
+       
+          }
+          .card.card-img-top{
+            width: 50px !important; 
+            height: 200px !important; 
+            object-fit: contain;
+          }
+          cardu.cardu-img-top{
+            width: 50px !important; 
+            height: 200px !important; 
+            object-fit: contain;
+          }
+      .col-3 {
+        flex: 0 0 33.33%;
+        padding-right: 10px;
+      }
+    
+      .offset-1 {
+        margin-left: 8.3333333333%;
+      }
+    
+      .col-2 {
+        flex: 0 0 50%;
+      }
+    }
+    @media (max-width: 768px){
+      #b3{
+        font-size: 10px;
+        left: 450px;
+        width: 70px;
+      }
+      .card{
+        width: 200px;
+        height: 200px;
+      }
+      .cardu{
+        width: 200px;
+      }
+      .cardyay{
+        width: 200px;
+      }
+      #yay{
+        top: 650px;
+        left: 365px !important;
+        width: 50px;
+        height: 100px;
+      }
+        .moryazı{
+          font-size: 12px !important;
+          text-align: left;
+          left: 20px !important;
+        }
+        .morici form{
+
+          top: 100px !important;
+          left: 130px !important;
+          translate: middle center;
+          position: absolute;
+        }
+        .mail{
+          width: 160px !important;
+          height: 30px !important ;}
+        .morici .buton{
+          height: 20px !important;
+          width: 60px !important;
+        }
+        .butonyazısı{
+          font-size: 10px !important;
+        }
+        .morici .icon{
+          bottom: 10px;
+          right: 200px !important;
+        }
+
+    }
+    @media (max-width: 1138px){
+      body{
+        padding: 0;
+        margin: 0;
+      }
+      .card{
+        width: 200px;
+        height: 200px;
+      }
+      .cardu{
+        width: 200px;
+      }
+      .morici form{
+
+        top: 300px;
+        left: 350px;
+        translate: middle center;
+        position: absolute;
+        
+        
+      }
+      .mail{
+        width: 220px;
+        height: 40px;}
+      .morici .buton{
+        height: 40px !important;
+        width: 100px;
+      }
+      .morici .icon{
+        bottom: 10px;
+        right: 300px;
+      }
+
+    }
+    @media (max-width: 538px){
+      
+      #b1{
+        left: 60px !important;
+      }
+      #containerbaslık {
+        
+        right: 70px;
+
+      }
+      .morici{
+        width: 370px;
+        text-align: left;
+      }
+      .moryıldız{
+        left: 240px;
+      }
+      #b3{
+        width: 10px;
+        left: 10px;
+      }
+      .user-review{
+        width: 260px !important;
+      }
+      .user-review2{
+        width: 290px !important;
+      }
+      .moryazı{
+        font-size: 7px !important;
+        
+      }
+      .morici form{
+
+        top: 100px !important;
+        left: 130px !important;
+        translate: middle center;
+        position: absolute;
+      }
+      .mail{
+        width: 100px !important;
+        height: 20px !important ;}
+      .morici .buton{
+        height: 20px !important;
+        width: 40px !important;
+      }
+      .butonyazısı{
+        font-size: 8px !important;
+      }
+      .morici .icon{
+        bottom: 3px;
+        right: 120px !important;
+        
+      }
+    }
+    @media (max-width: 1338px){
+      .b3{
+        margin: 0px;
+      }
+      .anaresim{
+        width: 100%;
+        margin: 0px !important;
+        overflow: Visible ;
+      }
+      #yay{
+        left: 950px;
+      }
+      .moryıldız{
+        top: 350px;
+        left: 840px;
+      }
+      #containerbaslık{
+        right: 110px;
+      }
+      .user-review{
+        width: 400px;
+      }
+      .user-review2{
+        width: 430px;
+      }
+      .morici form{
+
+        top: 300px;
+        left: 350px;
+        translate: middle center;
+        position: absolute;
+        
+        
+      }
+      .mail{
+        width: 220px;
+        height: 40px;}
+      .morici .buton{
+        height: 40px !important;
+        width: 100px;
+      }
+      .morici .icon{
+        bottom: 10px;
+        right: 300px;
+      }
+    }
+    @media (max-width: 1000px){
+      .moryıldız{
+        top: 230px;
+        left: 540px;
+      }
+      .icon-with-text {
+        text-align: left;
+        font-size: 5px;
+      }
+      .icon-with-text span{
+        font-size: 4px;
+      }
+      #yay{
+        left: 500px;
+        top: 1000px;
+      }
+      .morici{
+        width: 600px;
+        margin-bottom: 50px;
+      }
+      #containerbaslık{
+        right: 110px;
+      }
+      .moryazı{
+        font-size: 14px;
+        top: 10px;
+        left: 180px !important;
+        width: 280px !important;
+      }
+      .morici form{
+
+        top: 200px;
+        left: 150px;
+        translate: middle center;
+        position: absolute;
+        
+        
+      }
+      .mail{
+        width: 220px;
+        height: 40px;}
+      .morici .buton{
+        height: 40px !important;
+        width: 100px;
+      }
+      .morici .icon{
+        bottom: 10px;
+        right: 300px;
+      }
+      #mor{
+        left: 590px;
+        top: -10px;
+        width: 60px;
+      }
+
+
+    }
+    @media (max-width: 520px){
+      #containerbaslık{
+        right: 90px;
+      }      
+      #ucak{
+        right: 80px;
+      }
+      .morici{
+        width: 330px !important;
+      }
+      .moryıldız{
+        left: 270px !important;
+      }
+      .moryazı{
+        font-size: 14px;
+        top: 10px;
+        left: 110px !important;
+        width: 210px !important;
+      }
+
+    }
+    @media (max-width: 530px){
+
+      #yay{
+        left: 330px !important;
+      }
+    }
+    @media (max-width: 400px){
+      .morici{
+        width: 320px !important;
+        border-top-left-radius: 90px;
+      }
+      .moryıldız{
+        left: 220px !important;
+      }
+      #containerbaslık{
+        right: 70px;
+        bottom: 120px;
+      }
+      .anaresim{
+        padding-right: 0px !important;
+      }
+      .moryazı{
+        font-size: 8px;
+        top: 10px;
+        left: 80px !important;
+        width: 160px !important;
+      }
+      .morici form{
+
+        top: 100px !important;
+        left: 80px !important;
+        translate: middle center;
+        position: absolute;
+      }
+      .mail{
+        width: 100px !important;
+        height: 20px !important ;}
+      .morici .buton{
+        height: 20px !important;
+        width: 50px !important;
+      }
+      .butonyazısı{
+        font-size: 8px !important;
+      }
+      .morici .icon{
+        bottom: 3px;
+        right: 130px !important;
+        
+      }
+      #mor{
+        left: -50px !important;
+        top: 14px !important;
+        width: 30px !important;
+      }
+
+    }
+    .anaclass{
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+    }
+    .kafa{
+      position: relative;
+    }
+    .ok{
+      position: absolute;
+      left: 490px;
+      top: 150px;
+    }
+    .ok1{
+      opacity: 0.2;
+    }
+    @media (max-width: 620px){
+      .ok{
+        position: absolute;
+        left: 440px;
+        top: 220px;
+      }
+    }    
+    @media (max-width: 540px){
+      .ok{
+        position: absolute;
+        left: 340px;
+        top: 220px;
+      }
+
+    }  
+    @media (max-width: 520px){
+      #mor{
+        left: 320px !important;
+        top: -14px;
+        width: 60px;
+      }
+    }  
+    @media (max-width: 430px){
+      .ok{
+        left: 300px;
+        top: 220px;
+      }
+      #yay{
+        left: 280px !important;
+      }
+    }     
+#containerbaslık{
+  top: 90px;
+}
+@media (max-width: 1430px){
+  #containerbaslık{
+    top: -40px !important;
+    left: -180px;
+  }
+} 
+@media (max-width: 1000px){
+  #containerbaslık{
+    top: -100px !important;
+    left: -180px;
+    width: 450px;
+    
+  }
+  .a1{
+    font-size: 16px;
+  }
+  .a2{
+    font-size: 42px;
+  }
+  .a6{
+    top: 470px;
+    left: 180px;
+  }
+  .a7{
+  top: 470px;
+  left: 240px;
+  }
+} 
+@media (max-width: 770px){
+  #containerbaslık{
+    top: -140px !important;
+    left: -140px;
+    width: 300px;
+    
+  }
+  #mor{
+    left: 440px;
+    top: 10px;
+    width: 40px;
+  }
+
+  .nav-link{
+    font-size: 10px !important;
+  }
+  .a1{
+    font-size: 16px;
+  }
+  .a2{
+    font-size: 32px;
+  }
+  .a6{
+    top: 400px;
+    left: 180px;
+  }
+  .a7{
+  top: 400px;
+  left: 220px;
+  }
+} 
+@media (max-width: 560px){
+  #containerbaslık{
+    left: -100px ;
+  }
+} 
+@media (max-width: 450px){
+  #containerbaslık{
+    top: -140px !important;
+    left: -70px;
+    width: 230px;
+    
+  }
+  .a1{
+    font-size: 12px;
+  }
+  .a2{
+    font-size: 25px;
+  }
+  .a6{
+    top: 380px;
+    left: 160px;
+  }
+  .a7{
+  top: 380px;
+  left: 180px;
+  }
+
+} 
+@media (max-width: 300px){
+  #containerbaslık{
+    top: -140px !important;
+    left: -70px;
+    width: 170px;
+    
+  }
+  .a1{
+    font-size: 8px;
+  }
+  .a2{
+    font-size: 20px;
+  }
+  .a6{
+    top: 430px;
+    left: 170px;
+  }
+  .a7{
+  top: 430px;
+  left: 200px;
+  }
+  .nav{
+    width: 30px;
+  }
+  .navbar-toggler{
+    width: 50px;
+  }
+  .navbar-toggler-icon{
+    width: 25px !important;
+  }
+} 
+.enalt{
+  width: 203px;
+  height: 17px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e6282;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.logolar img{
+  width: 100%;
+}
+@media (max-width: 380px){
+ #mor{
+  left: 240px !important;
+ }
+ .morici{
+  width: 250px !important;
+ }
+}
