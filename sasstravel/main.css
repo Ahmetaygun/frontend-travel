@@ -1,4 +1,138 @@
 @charset "UTF-8";
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: left !important;
+}
+footer .footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  footer .footer-wrapper {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  footer .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 576px) {
+  footer .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+footer .footer-wrapper .part-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 576px) {
+  footer .footer-wrapper .part-1 {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer .footer-wrapper .part-1 h1 {
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+footer .footer-wrapper .part-1 p {
+  cursor: pointer;
+  max-width: 200px;
+  color: #5e6282;
+  font-size: 0.8125rem;
+}
+footer .footer-wrapper .part-2 {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 576px) {
+  footer .footer-wrapper .part-2 {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer .footer-wrapper .part-2 h1 {
+  margin-left: 25px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+footer .footer-wrapper .part-2 nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+footer .footer-wrapper .part-2 nav ul li {
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  color: #5e6282;
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+footer .footer-wrapper .part-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer-wrapper .part-3 .icons-bar {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+footer .footer-wrapper .part-3 .icons-bar img {
+  filter: drop-shadow(0px 11px 8px rgba(160, 162, 160, 0.2));
+}
+footer .footer-wrapper .part-3 p {
+  font-family: Poppins, sans-serif;
+  color: #5e6282;
+}
+footer .footer-wrapper .part-3 .buttons-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+footer .footer-wrapper .part-3 .buttons-bar img {
+  cursor: pointer;
+  width: 100%;
+}
+footer .last-footer {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+footer .last-footer p {
+  color: #5e6282;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
 .anaresim {
   background-image: url("Decore.png");
   background-repeat: no-repeat;
@@ -69,9 +203,14 @@
 }
 
 .b3 {
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
+@media (max-width: 1000px) {
+  .b3 {
+    margin-top: 0px !important;
+  }
+}
 .artı {
   background-image: url(artı.png);
   background-repeat: no-repeat;
@@ -93,12 +232,8 @@
   top: -20px !important;
 }
 
-.zz {
-  position: relative;
-}
-
 .a1 {
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   color: #df6951;
   font-weight: 700;
@@ -126,6 +261,13 @@
   font-family: "Poppins";
 }
 
+.find {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Google Sans";
+  text-align: center;
+}
+
 .a4 {
   font-size: 18px;
   height: 60px;
@@ -148,15 +290,15 @@
 }
 
 .a6 {
-  width: 52px;
-  height: 52px;
+  width: 46px;
+  height: 46px;
   border-radius: 26px;
   filter: drop-shadow(0px 15px 34.5px rgba(223, 105, 81, 0.3));
   background-color: #df6951;
   position: absolute;
   transform: rotate(90deg);
-  left: 160px;
-  top: -2px;
+  left: 180px;
+  top: 575px;
 }
 
 .a6::after {
@@ -177,8 +319,8 @@
   font-weight: 500;
   font-family: "Poppins";
   position: absolute;
-  left: 240px;
-  top: -1px;
+  left: 220px;
+  top: 580px;
 }
 
 /* bölüm2 */
@@ -228,8 +370,8 @@
 /* bölüm3 */
 #ucak {
   position: relative;
-  top: 250px;
-  right: 90px;
+  top: 240px;
+  right: 110px;
 }
 
 .card {
@@ -240,14 +382,15 @@
   margin: 20px;
   padding-bottom: 90px;
   box-shadow: 0px 0px 0px white;
-  width: 180px;
+  width: 267px;
+  height: 314px;
 }
 
 .cardu {
   overflow: visible;
   position: relative;
   bottom: 90px;
-  border-radius: 15px;
+  border-radius: 40px;
   padding: 30px;
   box-shadow: none;
   background-color: white;
@@ -256,6 +399,11 @@
   width: 250px;
 }
 
+@media (max-width: 768px) {
+  .cardu {
+    bottom: 0px !important;
+  }
+}
 .cardu-title {
   text-align: center;
   font-size: 16px;
@@ -410,10 +558,33 @@
 
 .cardyay {
   width: 290px;
-  box-shadow: 1px 1px 10px black;
-  border-radius: 10px;
+  border-radius: 25px;
   margin: 10px;
   position: relative;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cardyay img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  color: #5e6282;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.full {
+  width: 49px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5e6282;
+  font-weight: 500;
+  font-family: "Poppins";
 }
 
 .card-img, .card-img-bottom, .card-img-top {
@@ -647,9 +818,11 @@
   position: relative;
   border-radius: 20px;
   border-top-left-radius: 150px;
-  background-color: #e0dbee;
+  background-image: url(morr.png);
+  background-repeat: no-repeat;
+  background-size: 130%;
   overflow: hidden;
-  opacity: 0.7;
+  width: 100%;
 }
 
 .morresim {
@@ -729,7 +902,7 @@
 }
 
 .box, .box.box1 {
-  margin-top: 40px;
+  margin-top: 10px;
   text-align: center;
 }
 .box.box1 {
@@ -750,11 +923,18 @@
   align-items: center;
 }
 
+.box3 {
+  width: 150px;
+}
+
+.playicon {
+  width: 1px !important;
+}
+
 .boxsosyalmedya {
   padding: 10px;
   width: 40px;
   height: 40px;
-  text-align: center;
   border-radius: 50%;
   box-shadow: 1px 1px 10px black;
 }
@@ -829,6 +1009,11 @@
   }
 }
 @media (max-width: 768px) {
+  .cardu {
+    left: 0px !important;
+    border: 0 !important;
+    box-shadow: 0px 0px 0px !important;
+  }
   .find {
     font-size: 10px !important;
   }
@@ -868,11 +1053,11 @@
     font-size: 10px;
   }
   .a6 {
-    width: 42px;
-    height: 42px;
+    width: 32px;
+    height: 32px;
     border-radius: 21px;
     filter: drop-shadow(0px 10px 25.5px rgba(223, 105, 81, 0.3));
-    top: -1px !important;
+    top: 10px !important;
     left: 100px !important;
   }
   .a6::after {
@@ -894,6 +1079,17 @@
   }
   #b2 h4 {
     text-align: center !important;
+  }
+}
+@media (max-width: 1340px) {
+  .a6 {
+    top: 575px !important;
+  }
+  .a7 {
+    top: 585px !important;
+  }
+  .a1 {
+    width: 450px;
   }
 }
 @media (max-width: 468px) {
@@ -1204,19 +1400,6 @@
   }
 }
 @media (max-width: 538px) {
-  .a1 {
-    font-size: 9px !important;
-  }
-  .a2 {
-    width: 120px;
-    font-size: 18px !important;
-  }
-  .a3 {
-    font-size: 7px;
-  }
-  .find {
-    font-size: 10px !important;
-  }
   #b1 {
     left: 60px !important;
   }
@@ -1245,24 +1428,24 @@
   }
   .morici form {
     top: 100px !important;
-    left: 130px !important;
+    left: 180px !important;
     translate: middle center;
     position: absolute;
   }
   .mail {
-    width: 100px !important;
-    height: 20px !important;
+    width: 120px !important;
+    height: 30px !important;
   }
   .morici .buton {
     height: 20px !important;
-    width: 40px !important;
+    width: 60px !important;
   }
   .butonyazısı {
     font-size: 8px !important;
   }
   .morici .icon {
-    bottom: 3px;
-    right: 120px !important;
+    bottom: 12px !important;
+    right: 160px !important;
   }
 }
 @media (max-width: 1338px) {
@@ -1374,16 +1557,30 @@
     right: 80px;
   }
   .morici {
-    width: 330px !important;
+    width: 360px !important;
   }
   .moryıldız {
-    left: 270px !important;
+    left: 340px !important;
   }
   .moryazı {
     font-size: 14px;
     top: 10px;
     left: 110px !important;
     width: 210px !important;
+  }
+  .morici form {
+    top: 200px;
+    left: 100px !important;
+    translate: middle center;
+    position: absolute;
+  }
+  .mail {
+    width: 220px;
+    height: 40px;
+  }
+  .morici .icon {
+    bottom: 10px;
+    right: 300px;
   }
 }
 @media (max-width: 530px) {
@@ -1397,10 +1594,6 @@
   }
 }
 @media (max-width: 400px) {
-  .morici {
-    width: 320px !important;
-    border-top-left-radius: 90px;
-  }
   .moryıldız {
     left: 220px !important;
   }
@@ -1435,7 +1628,7 @@
     font-size: 8px !important;
   }
   .morici .icon {
-    bottom: 3px;
+    bottom: 2px !important;
     right: 130px !important;
   }
   #mor {
@@ -1520,6 +1713,30 @@
 }
 
 @media (max-width: 1430px) {
+  #mor {
+    left: 1100px;
+    top: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  #mor {
+    left: 900px;
+    top: 0px;
+  }
+}
+@media (max-width: 990px) {
+  #mor {
+    left: 580px;
+    top: 0px;
+  }
+}
+@media (max-width: 520px) {
+  #mor {
+    left: 350px !important;
+    top: 0px;
+  }
+}
+@media (max-width: 1430px) {
   #containerbaslık {
     top: -40px !important;
     left: -180px;
@@ -1529,24 +1746,31 @@
   #containerbaslık {
     top: -100px !important;
     left: -180px;
-    width: 450px;
+    width: 350px;
   }
   .a1 {
     font-size: 16px;
+    width: 450px;
   }
   .a2 {
     font-size: 42px;
   }
+  .a4 {
+    width: 120px;
+  }
   .a6 {
-    top: -1px !important;
+    top: 520px !important;
     left: 180px;
   }
   .a7 {
-    top: -1px !important;
+    top: 530px !important;
     left: 240px;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 768px) {
+  #ucak {
+    display: none;
+  }
   .ok {
     left: 450px;
   }
@@ -1564,18 +1788,18 @@
     font-size: 10px !important;
   }
   .a1 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .a2 {
     font-size: 32px;
   }
   .a6 {
-    top: -1px !important;
-    left: 180px;
+    top: 397px !important;
+    left: 150px !important;
   }
   .a7 {
-    top: -1px !important;
-    left: 220px;
+    top: 402px !important;
+    left: 180px !important;
   }
 }
 @media (max-width: 560px) {
@@ -1597,7 +1821,7 @@
     font-size: 18px !important;
   }
   .a3 {
-    font-size: 5cap;
+    font-size: 7px;
   }
   .find {
     font-size: 8px !important;
@@ -1605,12 +1829,12 @@
   .a6 {
     width: 30px;
     height: 30px;
-    top: 9px !important;
-    left: 80px !important;
+    top: 310px !important;
+    left: 120px !important;
   }
   .a7 {
-    top: 5px !important;
-    left: 95px !important;
+    top: 315px !important;
+    left: 150px !important;
     font-size: 10px;
   }
 }
@@ -1636,12 +1860,13 @@
   .a6 {
     width: 25px;
     height: 25px;
-    top: 9px !important;
-    left: 80px !important;
+    top: 319px !important;
+    left: 100px !important;
   }
   .a7 {
-    top: 8px !important;
-    left: 90px !important;
+    width: 50px;
+    top: 322px !important;
+    left: 120px !important;
   }
   .a6::after {
     border-width: 0 6px 6px 6px;
@@ -1678,13 +1903,13 @@
   .a6 {
     width: 25px;
     height: 25px;
-    top: 9px !important;
-    left: 70px !important;
+    top: 317px !important;
+    left: 100px !important;
   }
   .a7 {
     width: 200px;
-    top: 9px !important;
-    left: 90px !important;
+    top: 320px !important;
+    left: 110px !important;
   }
 }
 @media (max-width: 300px) {
@@ -1736,6 +1961,10 @@
   }
   .morici {
     width: 250px !important;
+    border-top-left-radius: 8px;
+  }
+  .morici form {
+    top: 60px !important;
   }
   .yazı {
     position: absolute;
